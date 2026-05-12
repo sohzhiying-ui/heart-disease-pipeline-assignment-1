@@ -6,4 +6,4 @@ def remove_duplicates(input_file, output_file):
     df_clean.to_csv(output_file, index=False)
 
 if __name__ == "__main__":
-    remove_duplicates("data/dataset.csv", "data/dataset_clean.csv")
+    remove_duplicates("data/dataset.csv", "data/processed_dataset.csv")
